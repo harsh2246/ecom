@@ -166,7 +166,9 @@ class LoginPage extends StatelessWidget {
                             color: Color(0xFF475269),
                             fontSize: 18,
                             fontWeight: FontWeight.w500),
-                      ))
+                      )
+                      )
+                      
                 ],
               )
             ],

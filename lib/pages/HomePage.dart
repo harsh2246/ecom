@@ -1,3 +1,5 @@
+import 'package:ecom/widgets/AllItemsWidget.dart';
+import 'package:ecom/widgets/HomeBottomNavBar.dart';
 import 'package:ecom/widgets/RowItemsWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
@@ -99,11 +101,15 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30,),
-            const RowItemsWidget()
+            const RowItemsWidget(),
+            const SizedBox(height: 20,),
+            const AllItemsWidget(),
+            
           ],
           
         )
         ),
+        bottomNavigationBar:const HomeBottomNavBar(),
       ),
     );
   }

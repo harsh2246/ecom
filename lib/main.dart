@@ -1,3 +1,4 @@
+import 'package:ecom/pages/ItemPage.dart';
 import 'package:flutter/material.dart';
 import 'package:ecom/pages/LoginPage.dart';
 import 'package:ecom/pages/HomePage.dart';
@@ -21,6 +22,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) =>const LoginPage(), 
          "homepage": (context) =>const HomePage(), // The context parameter is used to build the LoginPage widget when the root route is accessed.
+        "itempage": (context) =>const ItemPage(),
+      
       },
     );
   }
