@@ -28,7 +28,7 @@ class HomeBottomNavBar extends StatelessWidget {
               showSlidingBottomSheet(
                 context,builder:(context){
                   return SlidingSheetDialog(
-                    
+                    title:""
                   )
                 }
               ),
